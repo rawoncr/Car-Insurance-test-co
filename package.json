@@ -1,0 +1,23 @@
+{
+  "name": "Car-Insurance-test-co",
+  "version": "1.0.0",
+  "author": "Ramon Caraballo",
+  "description": "ComparaOnline Software Engineer Test",
+  "main": "src/after-30-days.js",
+  "scripts": {
+    "test": "nyc mocha spec/*.js",
+    "start": "node src/after-30-days.js",
+    "after-30-days": "node src/after-30-days.js"
+  },
+  "keywords": [
+    "comparaonline",
+    "test",
+    "software",
+    "engineer"
+  ],
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "nyc": "^13.1.0"
+  }
+}
